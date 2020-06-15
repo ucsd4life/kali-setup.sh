@@ -1,0 +1,32 @@
+#Fixing issue with setoolkit command in Kali Linux
+#After initiating command and going through steps website is cloned but does not spit back data. 
+#Ex. in command line
+setoolkit
+1. Social-Engineering Attacks
+2. Website Attack Vectors
+3. Credential Harvester Attack Method 
+2. Site Cloner
+#Accept the IP Address or type in desired IP address
+#type in URL of desired cloned site
+#Once target goes to site to type in credentials program says that it gets a hit but does not spit back credentials, this is the fix 
+#CREDIT
+#This fix was firt shown to me on Youtube by Problem Solutions
+#     https://www.youtube.com/watch?v=MemuULSaUAQ
+
+
+#go to https://github.com/trustedsec/social-engineer-toolkit
+#copy the git link
+#clone git link to directory 
+usr/share/set
+ls - in directory
+git clone https://github.com/trustedsec/social-engineer-toolkit.git
+#It then clones the git link
+#Once git link is cloned navigate in my files to usr/share/set
+#Find cloned Social-engineer-toolkit file
+#Click inside and copy files in folder
+#Go back a directory and replace all files under /usr/share/set/
+#run setoolkit and issue should be fixed
+##################
+#################
+###############
+############
