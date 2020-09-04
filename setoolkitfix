@@ -18,7 +18,7 @@ setoolkit
 #copy the git link
 #clone git link to directory 
 usr/share/set
-ls - in directory
+ls 
 git clone https://github.com/trustedsec/social-engineer-toolkit.git
 #It then clones the git link
 #Once git link is cloned navigate in my files to usr/share/set
